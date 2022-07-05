@@ -1,4 +1,3 @@
-
 Day 1 Contents
   What is a computer?
   What is a programming language?
@@ -33,9 +32,20 @@ Python is one of those 'refined' tools I just talked about. Python is a programm
 
 How to set up Python:
 (This is bare bones because it will just be demonstrated live)
-You can install Python by going to their website https://www.python.org/downloads/ and pressing the big yellow button that says "Download Python 3.10.5" it should recognize which OS (Operating System, we didn't even get into that) you are using but if not there should be an option on the page to download the version supported by your OS. After it downloads open the installer and begin the process of installing Python. Make sure that when it prompts you, you check the "Add Python to PATH" option on the installer. This makes it so that you can access Python from your computer Terminal segueing us into.
+You can install Python by going to their website https://www.python.org/downloads/ and pressing the big yellow button that says "Download Python 3.10.5" it should recognize which OS (Operating System, we didn't even get into that) you are using but if not there should be an option on the page to download the version supported by your OS. After it downloads open the installer and begin the process of installing Python. Make sure that when it prompts you, you check the "Add Python to PATH" option on the installer. This makes it so that you can access Python from your window terminal segueing us into.
 
 How Python works on the computer:
+What we've just downloaded is the python executable. The python executable is an environment which allows us to check and execute python scripts. By adding Python to our PATH folder we also enabled ourselves to access python from the terminal of our computer. Which begs the question, what's a terminal. The Windows terminal or "command prompt" is a program that let's humans interface with their operating system. It's called a Shell because it encapsulates and abstracts the features of an OS for the common user. Ironic considering how antiquated the program might seem today. The CLI counterpart in Mac and Linux is called BASH, it's been in use since the 70s. Good program. There are different types of Shells, Graphical-User-Interface or GUI which just that you can interact with the OS with more than text commands, like the one your using now. Windows still includes their command-line-interface CLI because there are some tasks on computers that are very slow to access through sole graphical interfacing, not stuff you need to worry about for the time being. The point is, for the time being we'll be creating programs that will have simple text inputs and will lack graphical output so until then we'll need a text interface to see what our programs are doing.
+
+Using Python in the Python Executable or Shell:
+So now we can access the Python Executable in two ways. First let's just open up the application. Go to your Windows search bar, type in Python and open it up.
+(Live demonstration)
+Okay let's now do the same thing but in the windows shell. What's cool about the windows shell is that I can navigate through the Windows fileSystem and use the native OS features in order to create files. Let's create a python file and then run it!
+(Live demonstration)
+
+What is an IDE?
+As you can see the process of coding in python from its own CL executable or the Command Prompt is extraordinarily janky. That's because it was never meant to be done that way. Remember how we wrote a python script, saved it as a .py and then executed the file? Well that file was  
+  
 
 
 
