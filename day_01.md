@@ -16,12 +16,12 @@
     * Lists
 6. Logical Operators
   	* if
-  	* if else
+  	* else if
   	* else
 7. Guessing Game
     
 ## What is a computer?
-A computer is a machine that can read a set of instructions and modify those instructions. In modern computing these instructions are written in binary, the zeros and ones most commonly seen in movies when somebody is 'hacking into the mainframe'. Binary is the only language a computer understands, this is because a computer (CPU) is comprised of millions to billions of microscopic electrical devices called 'transistors'. When a transistor has an electrical current going through it, the computer registers that as a 1, if there is no electrical current, it registers as a 0. The 2 possible options is why its called "binary". The transistor serves as the basis for modern computing. A binary gate or transistors that outputs either a 1 or a 0 is called a bit. 8 of these bits make up a byte. The one from kilobyte, megabyte, and gigabyte. You can argue that all a computer really does is manipulate data. The words you read on an online article or the movie you watch on your phone or even video games are just a human legible side-effects of the computer serving 1s and 0s.
+A computer is a machine that can read a set of instructions and modify those instructions. In modern computing these instructions are written in binary, the 0s and 1s most commonly seen in movies when somebody is 'hacking into the mainframe'. Binary is the only language a computer understands, this is because a computer (CPU) is comprised of millions to billions of microscopic electrical devices called 'transistors'. When a transistor has an electrical current going through it, the computer registers that as a 1, if there is no electrical current, it registers as a 0. The 2 possible options is why its called "binary". The transistor serves as the basis for modern computing. A binary gate or transistors that outputs either a 1 or a 0 is called a bit. 8 of these bits make up a byte. The "byte" from kilobyte, megabyte, and gigabyte. You can argue that all a computer really does is manipulate data. The words you read on an online article or the movie you watch on your phone or even video games are just a human legible side-effects of a computer serving 1s and 0s.
 There are many components that make up a computer. Some important components are: The CPU (central processing unit) which reads and executes (processes) instructions, its the brain of the computer. RAM stands for (Random Access Memory). RAM is where the computer stores information that is currently being used. RAM is very fast and easy for the CPU to access. On the contrary, the Hard Drive is where the computer stores data in the long term. Data from the Hard Drive is significanlty slower to access than RAM memory. Think of RAM as short-term memory, the information that's relevant to what your doing right now. How to use a computer, listening comprehension, etc. The Hard Drive is more long-term memory, what you had for breakfast today, how to ride a bike. When hard drive data needs to be accessed it gets loaded into the RAM for the CPU to use.
 
 ## What is a programming language?
@@ -52,5 +52,23 @@ As you can see the process of coding in python from its own CL executable or the
 #### Creating a Python File
 Okay now we're finally ready to start coding. First let's open up a directory in VS Code. Let's go to the desktop and make a new folder, call it "python_projects".
 Now let's right click on the folder and open it in VS Code. (Demonstrate how you can access the folder from within VS Code as well.) Let's open up a new file. VS Code defaults to a text file until you provide an .extension but the python extension we installed will automatically give us the option to write a .py file. Okay let's write our first line of code: print("Hello world"). Save the file as hello.py. Now let's open up a terminal in VS Code. With the python extension, VS Code loads the python executable into the terminal. If we hadn't done this we would have defaulted to the command prompt instead and we would've had to launch Python manually. Okay enough dallying let's execute our code. In the terminal type "python hello.py". You just got the computer to say "hello". Isn't that neat? Here's what we just did. "print" is a command embedded into python that logs text into the python executable. You can see that the python executable is actually pointing to a specific folder. This is the immediate scope of the python executable. If we were to try to execute the "python" command to run the file from the desktop folder we would get an error. Now it is pretty tedious and daunting to make sure that you remember and type the filename correctly and make sure the path is correctly specified we can bypass that by simply clicking the play buttion on the topright corner of the screen. (demonstrate) I just want to show you what is actually happening when you do it.
+## Python Datatypes
+Datatypes are the different ways a computer interprets values. Remember computers only know 1s and 0s so its important to tell the computer what its actually reading. Modern programming languages like Python can infer type just by assignment. You don't have to implicitly declare what type a given variable will be. Modern Programming languages also define what operations can be performed on a given type. If that doesn't make sense it will in a minute.
+Let's go over some basic datatypes:
+#### Numbers
+Numbers are just what you expect:
+They can be integer values: **5, -12, 101**
+They can be floats or decimal values: **2.1, 12.3421**
+You can perform calculations on them: **2 + 21 = 23**
+There are 5 main operands that you should know about: ( + , - , * , / , % )
+The first four behave as you'd expect: addition, subtraction, multiplication and division.
+Division is a little interesting as it always returns a float value. e.g.
+2 + 2 ... 4
+16 / 4 ... 4.0
+This has to do with how computers do math and will have implications later down the road but for now just know that you can mitigate this behavior with the "floor division" operand "//" e.g.
+5 / 2 ... 2.5
+5 // 2 ... 2
+Its called the floor because it will always round down, to the floor of the possible value.
+
 
 ## Logical Operaters
