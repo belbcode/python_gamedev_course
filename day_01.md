@@ -40,15 +40,16 @@ What we've just downloaded is the python executable. The python executable is an
 Using Python in the Python Executable or Shell:
 So now we can access the Python Executable in two ways. First let's just open up the application. Go to your Windows search bar, type in Python and open it up.
 (Live demonstration)
-Okay let's now do the same thing but in the windows shell. What's cool about the windows shell is that I can navigate through the Windows fileSystem and use the native OS features in order to create files. Let's create a python file and then run it!
+Okay let's now do the same thing but in the windows shell. What's cool about the windows shell is that I can navigate through the Windows fileSystem and use the native OS features in order to create and save files. Let's create a python file and then run it!
 (Live demonstration)
 
 What is an IDE?
-As you can see the process of coding in python from its own CL executable or the Command Prompt is extraordinarily janky. That's because it was never meant to be done that way. Remember how we wrote a python script, saved it as a .py and then executed the file? Well that file was  
-  
+As you can see the process of coding in python from its own CL executable or the Command Prompt is extraordinarily janky. That's because it was never meant to be done that way. Remember how we wrote a python script, saved it as a .py and then executed the file? Well that file was essentially a bunch of text formatted in a way so that the python interpreter would understand it. Technically you could write that in google docs if you wanted to. But Google docs has certain qualities and lacks certain features that make it convenient to write code. What we want is a text editing application that provides an environment for running and testing the programs we make. Enter IDEs, Integrated Development environments. IDEs allow us to write, test, and refactor code all in one place. They usually provide intellisense, sort of like autocomplete for coding.
 
+Installing Visual Studio Code
 
-
-
+Creating a Python File
+Okay now we're finally ready to start coding. First let's open up a directory in VS Code. Let's go to the desktop and make a new folder, call it "python_projects".
+Now let's right click on the folder and open it in VS Code. (Demonstrate how you can access the folder from within VS Code as well.) Let's open up a new file. VS Code defaults to a text file until you provide an .extension but the python extension we installed will automatically give us the option to write a .py file. Okay let's write our first line of code: print("Hello world"). Save the file as hello.py. Now let's open up a terminal in VS Code. With the python extension, VS Code loads the python executable into the terminal. If we hadn't done this we would have defaulted to the command prompt instead and we would've had to launch Python manually. Okay enough dallying let's execute our code. In the terminal type "python hello.py". You just got the computer to say "hello". Isn't that neat? Here's what we just did. "print" is a command embedded into python that logs text into the python executable. You can see that the python executable is actually pointing to a specific folder. This is the immediate scope of the python executable. If we were to try to execute the "python" command to run the file from the desktop folder we would get an error. Now it is pretty tedious and daunting to make sure that you remember and type the filename correctly and make sure the path is correctly specified we can bypass that by simply clicking the play buttion on the topright corner of the screen. (demonstrate) I just want to show you what is actually happening when you do it.
 
 Logical Operaters
